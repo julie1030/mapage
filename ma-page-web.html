@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page de Julie</title>
+    <link rel="shortcut icon" href="icone-julie.jpg">
+    <link rel="stylesheet" href="ma-page-web.css"/>
+    <link rel="preconnect » href="https://fonts.googleapis.com"> 
+    <link rel="preconnect » href="https://fonts.gstatic.com » crossorigin>
+
+    <script>
+        function showBouc() {
+            const bouc = document.getElementById('bouc')
+            bouc.style.display = 'block'
+        }
+        function closeBouc() {
+            const bouc = document.getElementById('bouc')
+            bouc.style.display = 'none'}
+    </script>
+
+<link href="https://fonts.googleapis.com/css2? family=Dancing+Script&display=swap » rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+
+        <Header>
+        <h1> &#10024; Bienvenue sur<span><br></span>ma page</h1>
+        </Header>
+        <main>
+             <div>
+                <h2>Qui je suis:</h2>
+                    <h3>Je suis une personne enthousiaste et curieuse.
+                        J'aime apprendre de nouvelles choses et relever des défis.
+                        Je peux être méthodique et organisée. 
+                        J'ai envie de gagner mon indépendance professionnelle dans 
+                        un métier qui me plaît et dans lequel je peux apporter un 
+                        vrai plus dans une équipe.</h3>
+             </div>
+             
+             <h2>Qui êtes-vous? </h2>
+                <h3>
+                    <div>
+                    <legend>Sélectionnez ce qui vous décrit le mieux:</legend>
+                    <input type="radio"  id="humain"name="type"/>
+                    <label for="human">Je suis un(e) humain(e)</label>
+    
+                    <input type="radio" name="type" checked id="robot"/>
+                    <label for="bot">Je suis un robot</label>
+    
+                    <input type="radio" name="type" id="canard"/>
+                    <label for="duck">Je suis un petit canard jaune</label>
+                </div>
+                </h3>
+    
+             <div>
+                <h2>Pourquoi je souhaite postuler à la formation?</h2>
+                    <h3>Après avoir fréquenté le monde des développeurs, j'ai commencé 
+                        à m'intéresser de plus près à ce domaine. Cet univers étant aux antipodes
+                         de ce que j'avais déjà fait dans ma vie, j'ai eu quelques appréhensions 
+                         au départ. Finalement en découvrant pas à pas les langages informatique 
+                         cela m'interesse de plus en plus et encore mieux : je me sens tout à 
+                         fait capable de l'envisager!</h3>
+             </div>
+             <div>
+                <h2>Raisons pour lesquelles vous avez raison de me donner ma chance:</h2>
+               <h3> <ul>
+                    <li> blabla bla</li>
+                    <li> blabla bla</li>
+                    <li> blabla bla</li>
+                    <li> je n'ai pas peur d'apprendre de mes erreurs</li>
+                    <li> Je suis une gentille personne</li>
+                    <li> J'ai besoin de me former rapidement et de trouver un travail rémunéré</li>
+                    <li> JE SUIS TRES MOTIVEE !</li>
+                    <li> <button onclick="showBouc()" >Mon bouc</button> </li>
+                </ul></h3>
+                <div id="bouc" style="display: none;">
+                 <img  src="bouc.gif">
+                <button onclick="closeBouc()">X</button>   
+                </div>
+                
+             </div>
+             <div>
+             </div>
+             <div></div>
+             <div></div>
+        </main>
+        <footer>
+            <h4>Vous avez envie d'en savoir davantage ?</h4>
+           <strong><a href="mailto:j.dussaussois@gmail.com">Contactez-moi !</a></strong>
+        </footer>
+    </div>
+   
+</body>
+</html>
